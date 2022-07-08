@@ -1,0 +1,148 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5D548B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    width: 80vw;
+    height: 90vh;
+    background-color: #110E20;
+    box-shadow: 15px 11px 16px #241f36;
+    
+}
+.customnav{
+    background-color: #1B1730;
+    box-shadow: 0px 1px 15px #FFFFFF;
+    z-index: 1;
+    
+}
+.customnav a{
+    
+    color: #FFFFFF;
+}
+.customnav a:hover{
+    
+    transition-delay: 0.2s;
+    animation-timing-function: ease-in;
+    color: #110E20;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    font-size: large;
+   
+    
+}
+.customnav a img{
+    
+    width: 35px;
+    height: 33px;
+}
+#d-1{
+    top: 15vh;
+    right: 2vw;
+    width: 75vw;
+    
+}
+#d-2{
+    top: 27vh;
+    right: 2vw;
+    width: 75vw;
+}
+#d-3{
+    top: 39vh;
+    right: 2vw;
+    width: 75vw;
+}
+
+/* #d-4{
+    top: 43vh;
+    right: 2vw;
+    width: 75vw;
+} */
+#d-4{
+    top: 51vh;
+    right: 2vw;
+    width: 75vw;
+}
+
+#btmcontainer{
+    top: 68vh;
+    right: 2vw;
+    width: 75vw;
+    height: 17vh;
+}
+#gif{
+    width: 8vw;
+    height: 6vh;
+    opacity: 0;
+}
+
+.songitems img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #110E20;
+}
+
+.songitems span{
+    
+    width: 30vw;
+    text-align: center;
+
+}
+
+.c{
+    cursor: pointer;
+}
+
+/* .songs{
+    right: 2vw;
+    width: 75vw;
+    margin-top: 2vh;
+
+} */
+
+@media only screen and (max-width: 750px)  {
+    #file{
+        visibility: hidden;
+        
+
+    }
+    
+    /* #d-1{
+        top: 15vh;
+        right: 2vw;
+        width: 75vw;
+        
+    }
+    #d-2{
+        top: 20vh;
+        right: 2vw;
+        width: 75vw;
+    }
+    #d-3{
+        top: 25vh;
+        right: 2vw;
+        width: 75vw;
+    }
+    
+    #d-4{
+        top: 30vh;
+        right: 2vw;
+        width: 75vw;
+    } */
+}
+
+
+#file{
+    width: 100%;
+    background: #5D548B;
+    
+}
+/* #btmsongname{
+    width: 20vw;
+    background-color: red;
+} */
